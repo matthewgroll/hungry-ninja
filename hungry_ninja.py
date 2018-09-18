@@ -17,6 +17,11 @@ class MyGame(Window):
         # Initialize
         #Parent class initializer
         super().__init__(SCREEN_WIDTH, SCREEN_HEIGHT, "Sprite tester")
+
+        #enables "python -m" to run the game
+        file_path = os.path.dirname(os.path.abspath(__file__))
+        os.chdir(file_path)
+
         self.player_list = None
         self.coin_list = None
 
