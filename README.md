@@ -1,2 +1,2 @@
 # hungry-ninja
-First attempt at a python game
+First attempt at a very simple item collector game in python
