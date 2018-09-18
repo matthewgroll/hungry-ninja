@@ -44,7 +44,7 @@ class MyGame(Window):
         self.score = 0
 
         #Set up player
-        self.player_sprite = Sprite("ninja.png", SPRITE_SCALING_PLAYER)
+        self.player_sprite = Sprite("images/ninja.png", SPRITE_SCALING_PLAYER)
         self.player_sprite.center_x = 50
         self.player_sprite.center_y = 50
         self.player_list.append(self.player_sprite)
@@ -52,7 +52,7 @@ class MyGame(Window):
         #Create coins randomly across screen
         for i in range (COIN_COUNT):
 
-            coin = Sprite("sushi.png", SPRITE_SCALING_COIN)
+            coin = Sprite("images/sushi.png", SPRITE_SCALING_COIN)
 
             coin.center_x = random.randrange(SCREEN_WIDTH)
             coin.center_y = random.randrange(SCREEN_HEIGHT)
