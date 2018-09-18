@@ -10,4 +10,7 @@ Either:
 Or:
 2. Navigate to the folder containing hungry_ninja.py in terminal
 i.e. C:\Users\matt\(...)
+
 3. Enter: hungry_ninja.py
+
+Note: images folder must be in same location as hungry_ninja.py for game to run
