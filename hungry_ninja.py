@@ -67,7 +67,7 @@ class MyGame(Window):
         self.player_list.draw()
 
         #On screen text of player's score
-        output = f"Score: {self.score}"
+        output = ("Score=%d" % self.score)
         draw_text(output, 10, 20, color.WHITE, 14)
 
     def on_mouse_motion(self, x, y, dx, dy):
